@@ -26,7 +26,7 @@ export class RealmStore extends Component {
       : 'Loading...';
 
     return (
-      <View style={{flex: 1, alignSelf: 'center', marginTop: 50}}>
+      <View style={{alignSelf: 'center', marginTop: 50}}>
         <Text>{info}</Text>
       </View>
     );

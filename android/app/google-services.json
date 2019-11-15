@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "528672731936",
+    "firebase_url": "https://appsecurity-2a41e.firebaseio.com",
+    "project_id": "appsecurity-2a41e",
+    "storage_bucket": "appsecurity-2a41e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528672731936:android:3624e4898bd030d1731d45",
+        "android_client_info": {
+          "package_name": "com.appsecurity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528672731936-5s24lf5bthvlh3rqpi2i8c7q8isf8kb9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe5jKuvDbf_5PMoHhQqssShrrqJwxeeLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528672731936-5s24lf5bthvlh3rqpi2i8c7q8isf8kb9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

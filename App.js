@@ -11,7 +11,8 @@ import {StyleSheet, View, Text} from 'react-native';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 import FastImage from 'react-native-fast-image';
-import RealmStore from './RealmStore';
+import RealmStore from './src/RealmStore';
+import FirebaseTest from './src/FirebaseTest';
 
 const YourImage = () => (
   <FastImage
@@ -34,6 +35,7 @@ const App: () => React$Node = () => {
         <Text style={styles.footer}>api call</Text>
         <View style={{flex: 1, justifyContent: 'center'}}>
           <RealmStore />
+          <FirebaseTest />
         </View>
       </View>
     </>
@@ -51,7 +53,6 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     padding: 4,
     paddingRight: 12,
-    textAlign: 'right',
   },
 });
 
